@@ -50,6 +50,7 @@ ON Customers(CustomerEmail);
 Example Query Using the Index:
 
 SELECT * FROM Customers WHERE CustomerEmail = 'alice@email.com';
+
 🔹 Without an index: Full table scan (slow).
 🔹 With an index: SQL quickly finds the email.
 
